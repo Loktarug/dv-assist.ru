@@ -1,0 +1,370 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Calibri, Verdana, Geneva;
+	font-size:14pt;
+	background:url(images/gb.gif);
+}
+
+/* ----------------------------- ALL ----------------------------- */
+h1{
+	margin-top:0px;
+	font-size:22pt;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+
+h2{
+	font-size:20pt;
+	font-weight:normal;
+}
+
+p{
+	text-align:justify
+}
+
+a{
+	color:#fb7d00;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.orange{
+	color:#fb7d00;
+}
+
+.white{
+	color:white;
+}
+
+hr{
+	margin-top:20px;	
+	margin-bottom:20px;	
+}
+
+.text_norm{
+	font-size:14pt;
+}
+
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
+
+/* ----------------------------- STRUCTURE ----------------------------- */
+
+
+div.top_bg{
+	background:url(images/top_bg.jpg) repeat-x top left;
+	min-height:81px;
+}
+
+div.bottom_bg{
+	background:url(images/bottom_bg.jpg) repeat-x top left;
+	min-height:105px;
+}
+
+.main{
+	width:962px;
+	margin:0 auto;
+	min-height:500px;
+	background-color:white;
+}
+
+.main_top{
+	background:url(images/main_top_bg.jpg) repeat-x left top;
+	height:92px;
+}
+
+.logo{
+	margin-top:6px;
+	margin-left:78px;
+}
+
+.top_link{
+	display:block;
+	float:right;
+	font-size:18pt;
+	font-weight:bold;
+	color:white;
+	height:92px;
+	line-height:80px;
+	margin-right:40px;
+}
+
+.main_info_left, .main_info_right{
+	width:50%;
+	height:352px;
+	background:url(images/info_bg.jpg) repeat-x left top;
+}
+
+.content{
+	height:350px;
+	padding:45px;
+	padding-top:0px;
+}
+
+div.otstup_left{
+	padding-left:80px;
+	padding-right:80px;
+}
+
+.bottom_content{
+	width:962px;
+	margin:0 auto;
+}
+
+ul.bottom_menu{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	padding-top:23px;
+}
+
+ul.bottom_menu li{
+float:left;
+margin-right:30px;
+}
+
+ul.bottom_menu a{
+color:white;
+text-decoration:underline;
+}
+
+ul.bottom_menu a:hover{
+color:white;
+text-decoration:none;
+}
+
+.copy{
+float:right;
+color:white;
+}
+
+/* ----------------------------- OTHER ----------------------------- */
+.asist_car{
+	margin-top:25px;
+	margin-left:30px;
+}
+
+.phone{
+	font-size:28pt;
+	font-weight:bold;
+	color:white;
+	padding-top:12px;
+	padding-left:100px;
+}
+
+.cards{
+	margin-top:30px;
+	margin-right:65px;
+}
+
+.main_icons{
+	margin-top:20px;
+	margin-bottom:30px;
+	width:100%;
+}
+
+.main_icons td{
+	width:25%;
+}
+
+.main_icons span{
+	font-size:14pt;
+	font-weight:bold;
+	color:black;
+}
+
+.main_icons a{
+	text-decoration:none;
+}
+
+.main_icons img{
+	margin-bottom:10px;
+}
+
+.gray_line{
+	background-color:#7d7d7d;
+	text-align:center;
+	font-size:16pt;
+	font-weight:bold;
+	color:black;
+	height:46px;
+	line-height:46px;
+}
+
+.button{
+	display:block;
+	height:37px;
+	line-height:37px;
+	padding-right:70px;
+	padding-left:18px;
+	background-color:#fb7d00;
+	background-position:right top;
+	background-repeat:no-repeat;
+	color:white;
+	font-size:13.5pt;
+	text-decoration:none;
+	font-weight:bold;
+	cursor:pointer;
+	border:none;
+}
+
+.button:hover{
+	color:black;
+}
+
+.btn_arrow{background-image:url(images/icons/arrow.jpg);}
+.btn_cart{background-image:url(images/icons/cart.jpg);}
+
+ul.house_ul{
+	list-style-type:none;
+	padding-left:0px;
+}
+
+ul.house_ul li{
+	font-size:17pt;
+	font-weight:bold;
+	padding-left:35px;
+	background:url(images/icons/house.jpg) no-repeat left top;
+	margin-bottom:7px;
+}
+
+.money{
+	font-size:16pt;
+	font-weight:bold;
+	padding-left:80px;
+	background:url(images/icons/money.jpg) no-repeat left center;
+}
+
+ul.img_ul_62x62{
+	list-style-type:none;
+	padding-left:0px;
+}
+
+ul.img_ul_62x62 li{
+	padding-left:70px;
+	height:62px;
+}
+
+ul.img_ul_62x62 span{
+	height:62px;
+	display:table-cell;
+    vertical-align:middle;
+}
+
+.img_road_sign{background:url(images/icons/road_sign.jpg) no-repeat left top;}
+.img_medical{background:url(images/icons/medical.jpg) no-repeat left top;}
+.img_dps{background:url(images/icons/dps.jpg) no-repeat left top;}
+.img_dps_docs{background:url(images/icons/dps_docs.jpg) no-repeat left top;}
+.img_telephone{background:url(images/icons/telephone.jpg) no-repeat left top;}
+
+.price{
+	width:288px;
+	padding-left:15px;
+	height:60px;
+	line-height:50px;
+	font-size:17pt;
+	margin-left:33px;
+	text-shadow: -1px -1px 1px gray;
+}
+
+.orange_price{
+	background:url(images/price_orange.png) no-repeat left top;
+	color:white;
+}
+
+.white_price{
+	background:url(images/price_white.png) no-repeat left top;
+	color:black;
+}
+
+.price span{
+font-size:19pt;
+font-weight:bold;
+}
+
+ul.icons_ul{
+	list-style-type:none;
+	padding-left:0px;
+	margin-bottom:30px;
+}
+
+ul.icons_ul li{
+	height:30px;
+	line-height:30px;
+	padding-left:37px;
+	background-position:left center;
+	background-repeat:no-repeat;
+	margin-bottom:7px;
+}
+
+.icon_card{background-image:url(images/icons/icon_card.png);}
+.icon_status{background-image:url(images/icons/icon_onn_off.png);}
+.icon_auto{background-image:url(images/icons/icon_steering_wheel.png);}
+.icon_model{background-image:url(images/icons/icon_car.png);}
+.icon_gos{background-image:url(images/icons/icon_info.png);}
+.icon_clock_1{background-image:url(images/icons/icon_clock_1.png);}
+.icon_clock_2{background-image:url(images/icons/icon_clock_2.png);}
+.icon_info{background-image:url(images/icons/icon_clock_2.png);}
+
+.information_tbl{
+	margin:0 auto;
+	width:100%;
+	border-collapse:collapse;
+	box-shadow: 2px 2px 5px #F7F7F7;
+}
+
+.information_tbl th{
+	font-size:14pt;
+	border: 1px solid #D7D7D7;
+	background: -moz-linear-gradient(center top , #FEFEFE 0%, #EFEFEF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.information_tbl td{
+	font-size:13pt;
+	font-weight:normal;
+	border: 1px solid #D7D7D7;
+}
+
+.color_1{color:#7b7b7b;} /* �� ������������ */
+.color_2{color:#559b55;} /* ������������ */
+.color_3{color:#fd0701;} /* ������������ */
+.color_4{color:#73a2c9;} /* ����� ���� �������� */
+.color_5{color:#80559b;} /* �������� ���������� �������� � ����� � ��������� ����� */
+.color_6{color:#ab3957;} /* �������� ���������� �������� � ����� � ������ ������� */
+
+/* ----------------------------- FORMS ----------------------------- */
+.table_form{
+	margin:0 auto;
+}
+
+.table_form td{
+	text-align:right;
+}
+
+.table_form td.label{
+	font-weight:bold;
+}
+
+input{
+    width: 300px;
+}
+
+input{
+    font-size: 120%;
+}
+
+input, select, textarea {
+    background: -moz-linear-gradient(center top , #FEFEFE 0%, #EFEFEF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #D7D7D7;
+    box-shadow: 2px 2px 5px #F7F7F7;
+    padding: 2px 3px;
+}
