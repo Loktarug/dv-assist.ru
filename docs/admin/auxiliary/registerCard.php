@@ -25,5 +25,5 @@ foreach ($cards as $card)
 }
 fclose($fp);
 
-mail::sendMail('tarasovsr@gmail.com', 'RegistredCards', 'Hello', 'registerCards.csv');
+mail::sendMail('tarasovsr@gmail.com, ermaxx@mail.ru', 'RegistredCards', 'Hello', 'registerCards.csv');
 
