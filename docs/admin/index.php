@@ -69,6 +69,10 @@ else
                 }
                 else
                 {
+                    $agents = dbGetAgents();
+                    $services = dbGetServices();
+                    $smarty->assign('agents', $agents);
+                    $smarty->assign('services', $services);
                     $smarty->display('assign-service-form.tpl');
                 }
 

@@ -9,7 +9,13 @@
         <tr>
             <td valign="top" colspan="2" class="content">
                 <div>
-                   
+                    <h1>Добавить сервис</h1>
+                    <form action="/admin/index.php?type=form&action=add-service&step=finish" method="POST">
+                        <div>Наименование:<input type="text" name="ServiceName"/></div>
+                        <div>Телефон:<input type="text" name="ServicePhone"/></div>
+                        <div>Адрес:<input type="text" name="ServiceAddress"/></div>
+                        <input type="submit" name="Добавить"/>
+                    </form>
                 </div>
             </td>
         </tr>

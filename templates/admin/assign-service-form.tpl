@@ -9,7 +9,24 @@
         <tr>
             <td valign="top" colspan="2" class="content">
                 <div>
-                   
+                <h1>Добавить сервис</h1>
+                    <form action="/admin/index.php?type=form&action=assign-service&step=finish" method="POST">
+                        <div>Агент:
+                            <select name="IdAgent">
+                            {foreach from=$agents item=agent}
+                                <option value="{$agent.Id}">{$agent.Name}</option>
+                            {/foreach}
+                            </select>
+                        </div>
+                        <div>Сервис:
+                            <select name="IdService">
+                            {foreach from=$services item=service}
+                                <option value="{$service.Id}">{$service.Name}</option>
+                            {/foreach}
+                            </select>
+                        </div>
+                        <input type="submit" name="Добавить"/>
+                    </form>
                 </div>
             </td>
         </tr>

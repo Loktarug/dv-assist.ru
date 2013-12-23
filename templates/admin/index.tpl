@@ -11,6 +11,7 @@
                 <div>
                     <a href="/admin/index.php?type=form&action=add-cards">Добавить карты</a><br/>
                     <a href="/admin/index.php?type=form&action=add-agent">Добавить агента</a><br/>
+                    <a href="/admin/index.php?type=form&action=add-service">Добавить сервис</a><br/>
                     <a href="/admin/index.php?type=form&action=assign-service">Закрепить сервис за агентом</a><br/>
                     <a href="/admin/index.php?type=list&action=cards-list">Список карт</a>
                    
