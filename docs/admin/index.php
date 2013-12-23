@@ -39,6 +39,10 @@ else
                 }
                 else
                 {
+                    $regions = dbGetRegions();
+                    $cardTypes = dbGetCardTypes();
+                    $smarty->assign('regions', $regions);
+                    $smarty->assign('cardTypes', $cardTypes);
                     $smarty->display('add-cards-form.tpl');
                 }
 

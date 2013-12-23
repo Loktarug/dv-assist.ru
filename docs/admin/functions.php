@@ -26,11 +26,11 @@ function addCards($data)
             {
                 for ($cardNumber = $data['cardsNumberFrom']; $cardNumber<=$data['cardsNumberUntil']; $cardNumber++)
                 {
-                    $results[] = dbAddNewCard(array('CardType' => $data['cardType'], 'CardNumber' => str_pad($cardNumber, 6, '0', STR_PAD_LEFT), 'IdStatus' => 1));
+                    $results[] = dbAddNewCard(array('CardType' => $data['cardType'], 'IdRegion' => $data['idRegion'], 'CardNumber' => str_pad($cardNumber, 6, '0', STR_PAD_LEFT), 'IdStatus' => 1));
                 }
 
                 //$to      = 'info@dv-assist.ru';
-                $to      = 'tarasovsr@gmail.com';
+                $to      = 'tarasovsr@gmail.com, ermaxx@mail.ru';
                 $subject = 'Cards';
 
                 // Для отправки HTML-письма должен быть установлен заголовок Content-type

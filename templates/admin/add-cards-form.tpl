@@ -11,11 +11,20 @@
                 <div>
                     <h1>Ввести карты</h1>
                     <form action="/admin/index.php?type=form&action=add-cards&step=finish" method="POST">
-                        <div>№ карты С<input type="text" name="cardsNumberFrom"/></div>
-                        <div>№ карты ПО<input type="text" name="cardsNumberUntil"/></div>
-                        <div>Тип Карты<input type="text" name="cardType"/></div>
-                        1 - Assistente<br/>
-                        2 - Assistente+<br/>
+                        <div>№ карты С:<input type="text" name="cardsNumberFrom"/></div>
+                        <div>№ карты ПО:<input type="text" name="cardsNumberUntil"/></div>
+                        <div>Регион:
+                            <select name="idRegion">
+                            {foreach from=$regions item=region}
+                                <option value="{$region.Id}">{$region.Name}</option>
+                            {/foreach}
+                            </select></div>
+                        <div>Тип Карты:
+                            <select name="cardType">
+                            {foreach from=$cardTypes item=cardType}
+                                <option value="{$cardType.Id}">{$cardType.Name}</option>
+                            {/foreach}
+                            </select></div>
                         {* <div>Действительно С <input type="text" id="date-valid-from" name="dateValidFrom"/></div>
                         <div>Действительно ПО <input type="text" id="date-valid-until" name="dateValidUntil"/></div> *}
                         <input type="submit" name="Добавить"/>
