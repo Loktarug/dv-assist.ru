@@ -10,9 +10,9 @@
             cardNumber = $('#cardNumber').val();
         }
         $.getJSON("ajax/get.php?data=cards&cardNumber=" + cardNumber, function (data) {
-            var items = '<tr><td>Номер Карты</td><td>Имя</td><td>Фамилия</td></tr>';
+            var items = '<tr><td>Номер Карты</td><td>Имя</td><td>Фамилия</td><td>Добавить информацию</td></tr>';
             $.each(data, function (key, val) {
-                items += "<tr><td><a href=\"index.php?type=form&action=edit-card&id-card=" + key + "\">" + val.CardNumber + "</a></td><td>" + val.FirstName + "</td><td>" + val.SecondName + "</td></tr>";
+                items += "<tr><td><a href=\"index.php?type=form&action=edit-card&id-card=" + key + "\">" + val.CardNumber + "</a></td><td>" + val.FirstName + "</td><td>" + val.SecondName + "</td><td><a href=\"index.php?type=form&action=add-info&id-card=" + key + "\">+</a></td></tr>";
             });
 
             $("#cards-list").empty();

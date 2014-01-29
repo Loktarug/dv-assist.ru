@@ -28,8 +28,11 @@
                 </table>
 
                 <div class="gray_line">Скидки от 30 коп. за литр топлива по карте в сети АЗС топливной компании ЕКА</div>
-
-                <a href="index.php?type=comparison&action=cards-comparison" class="button btn_arrow" style="float:right;margin:20px;margin-right:45px;">подробнее</a>
+                <div class="orange_line" style="position:relative;">
+                ВЫПЛАТА ПО ОСАГО В ТЕЧЕНИЕ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ДНЕЙ
+                <a href="index.php?type=page&amp;action=osago-5-days" class="button btn_arrow" style="float:right;margin-top:5px;">подробнее</a>
+                <img src="images/calendar_small.png" width="130" height="113" align="Календарь" style="position:absolute;top:-35px;right:320px;" />
+                </div>
 
                 <!-- content end -->
             </td>
@@ -39,5 +42,3 @@
     {include file="footer.tpl"}
 </body>
 </html>
-
-

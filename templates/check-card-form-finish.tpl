@@ -27,8 +27,8 @@
                           </tr>
                         {foreach from=$data.information item=v}
                           <tr>
-                            <td>{$v.Information}</td>
-                            <td align="center" width="200">{$v.InfoAdded}</td>
+                            <td>{$v.ActionName}</td>
+                            <td align="center" width="200">{$v.ActionCommitted}</td>
                           </tr>
                         {/foreach}
                         </table>

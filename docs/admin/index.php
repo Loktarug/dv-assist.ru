@@ -109,6 +109,25 @@ else
                 }
 
             }
+            elseif ($_GET['action'] == 'add-info')
+            {
+                if ($_GET['step'] == 'finish')
+                {
+                    $result = dbAddAssistenteInfo(array('IdCard' => $_POST['idCard'], 'IdAction' => $_POST['idAction'], 'ActionCommitted' => $_POST['actionCommitted'], 'MockCall' => ($_POST['mockCall'] == 'on' ? true:false)));
+                    $smarty->assign('addedInfo', $result);
+                    $smarty->display('add-info-form-finish.tpl');
+
+                }
+                else
+                {
+                    $actions = dbGetActions();
+                    $card = dbGetCardById(array('IdCard' => $_GET['id-card']));
+                    $smarty->assign('actions', $actions);
+                    $smarty->assign('card', $card[$_GET['id-card']]);
+                    $smarty->assign('idCard', $_GET['id-card']);
+                    $smarty->display('add-info-form.tpl');
+                }
+            }
             break;
         case 'list':
             if ($_GET['action'] == 'cards-list')

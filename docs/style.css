@@ -20,6 +20,10 @@ h2{
 	font-weight:normal;
 }
 
+h3{
+	font-size:20pt;
+}
+
 p{
 	text-align:justify
 }
@@ -150,14 +154,14 @@ color:white;
 /* ----------------------------- OTHER ----------------------------- */
 .asist_car{
 	margin-top:25px;
-	margin-left:30px;
+	margin-left:20px;
 }
 
 .phone{
 	font-size:28pt;
 	font-weight:bold;
 	color:white;
-	padding-top:12px;
+	padding-top:13px;
 	padding-left:100px;
 }
 
@@ -190,6 +194,19 @@ color:white;
 	margin-bottom:10px;
 }
 
+.orange_line{
+	background-color:#fb7d00;
+	text-align:left;
+	font-size:20pt;
+	font-weight:bold;
+	color:black;
+	height:46px;
+	line-height:46px;
+	margin-top:40px;
+	padding-left:40px;
+	padding-right:20px;
+}
+
 .gray_line{
 	background-color:#7d7d7d;
 	text-align:center;
@@ -198,6 +215,15 @@ color:white;
 	color:black;
 	height:46px;
 	line-height:46px;
+}
+
+.gray_line_2{
+	background-color:#7d7d7d;
+	text-align:left;
+	font-size:15pt;
+	font-weight:bold;
+	color:black;
+	padding:15px;
 }
 
 .button{
@@ -265,6 +291,13 @@ ul.img_ul_62x62 span{
 .img_dps{background:url(images/icons/dps.jpg) no-repeat left top;}
 .img_dps_docs{background:url(images/icons/dps_docs.jpg) no-repeat left top;}
 .img_telephone{background:url(images/icons/telephone.jpg) no-repeat left top;}
+
+.img_armor{background:url(images/icons/armor.jpg) no-repeat left top;}
+.img_time{background:url(images/icons/time.jpg) no-repeat left top;}
+.img_repair{background:url(images/icons/repair.jpg) no-repeat left top;}
+.img_blank{background:url(images/icons/blank.jpg) no-repeat left top;}
+.img_scales{background:url(images/icons/scales.jpg) no-repeat left top;}
+.img_money_2{background:url(images/icons/money_2.jpg) no-repeat left top;}
 
 .price{
 	width:288px;

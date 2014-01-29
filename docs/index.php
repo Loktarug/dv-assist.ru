@@ -96,6 +96,9 @@ else
                 case 'collection-of-certificates':
                     $smarty->display('collection-of-certificates.tpl');
                     break;
+				case 'osago-5-days':
+                    $smarty->display('osago-5-days.tpl');
+                    break;
             }
             break;
         case 'comparison':
